@@ -80,7 +80,7 @@ canvas {
 
 .mainheading {
   font-family: 'Poppins';
-  font-weight: 100;
+  font-weight: 800;
   /*background: -webkit-linear-gradient(0deg, #8DCCF8 0%, #8781F2 52.08%, #B59BF2 100%);*/
   /*-webkit-background-clip: text;*/
   /*-webkit-text-fill-color: transparent;*/
@@ -145,10 +145,5 @@ canvas {
   margin-top: calc(-1 * var(--bs-gutter-y));
   margin-right: calc(-.5 * var(--bs-gutter-x));
   margin-left: calc(-.5 * var(--bs-gutter-x));
-}
-
-.display-1 {
-  font-weight: 800;
-  line-height: 1;
 }
 
