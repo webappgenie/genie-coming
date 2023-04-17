@@ -94,6 +94,10 @@
   background-color: var(--bs-btn-bg);
   color: var(--bs-btn-color);
   border-color: var(--bs-btn-border-color);
+  background-image: url("../../assets/img/floss-50-dark.webp");
+  background-size: cover;
+  background-position: center;
+  border-width: 0;
 }
 
 .btn {
@@ -192,7 +196,10 @@ canvas {
 }
 
 .button-border {
-  /*padding: 2px;*/
+  padding: 1px;
+  border-radius: calc(.75rem + 1px);
+  background-image: url("../../assets/img/floss.webp");
+  background-size: cover;
 }
 
 .form-control {
