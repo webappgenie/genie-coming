@@ -175,8 +175,8 @@ canvas {
   top: 2rem;
   font-family: 'Poppins';
   font-weight: 500;
-  padding: 1px;
-  background: -webkit-linear-gradient(0deg, #8DCCF8 0%, #8781F2 52.08%, #B59BF2 100%);
+  /*padding: 1px;*/
+  /*background: -webkit-linear-gradient(0deg, #8DCCF8 0%, #8781F2 52.08%, #B59BF2 100%);*/
   border-radius: 3rem;
   font-size: 1rem;
   display: inline-flex;
@@ -271,5 +271,47 @@ canvas {
   .coming-soon {
     right: 2rem;
   }
+}
+
+.coming-soon-badge {
+  position: absolute;
+  width: 14rem;
+  top: -1px;
+  right: -1px;
+}
+
+.text-muted-2 {
+  --bs-text-opacity: 1;
+  color: #95a0aa!important;
+}
+
+.footer-div {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.footerlink {
+  text-decoration: none;
+  color: #fff;
+  padding: .75rem 1.5rem;
+  border-radius: 5rem;
+  font-family: 'Poppins';
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.footerlink:hover {
+  color: rgba(255,255,255,0.86);
+}
+
+.twitterlink.footerlink {
+  background-color: #1D9BF0;
+}
+
+.emaillink.footerlink {
+  background-color: #CE3C30;
 }
 
