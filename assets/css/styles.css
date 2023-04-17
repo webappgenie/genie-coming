@@ -107,6 +107,8 @@
   justify-content: center;
   gap: .75rem;
   padding: .5rem 1rem;
+  font-family: 'Poppins';
+  font-weight: 200;
 }
 
 canvas {
