@@ -118,7 +118,7 @@ canvas {
 @media (max-width: 768px) {
   .mainheading {
     font-size: 4.5rem;
-    text-align: left;
+    text-align: center;
     margin-top: 2rem;
   }
 }
@@ -166,7 +166,7 @@ canvas {
     align-items: start;
     min-height: auto;
     padding-top: 5rem;
-    padding-bottom: 3rem;
+    /*padding-bottom: 3rem;*/
   }
 }
 
@@ -275,7 +275,6 @@ canvas {
 
 .coming-soon-badge {
   position: absolute;
-  width: 14rem;
   top: -1px;
   right: -1px;
 }
@@ -288,30 +287,40 @@ canvas {
 .footer-div {
   display: flex;
   justify-content: center;
-  gap: 1rem;
+  gap: 2rem;
 }
 
 .footerlink {
   text-decoration: none;
   color: #fff;
-  padding: .75rem 1.5rem;
+  padding: .75rem;
   border-radius: 5rem;
   font-family: 'Poppins';
   display: flex;
   align-items: center;
   gap: 1rem;
   justify-content: center;
+  background-color: rgba(255,255,255,0.1);
 }
 
 .footerlink:hover {
   color: rgba(255,255,255,0.86);
 }
 
-.twitterlink.footerlink {
-  background-color: #1D9BF0;
+.poppins.fw-light {
+  font-family: 'Poppins';
+  font-weight: 200!important;
 }
 
-.emaillink.footerlink {
-  background-color: #CE3C30;
+@media (max-width: 768px) {
+  .coming-soon-badge {
+    width: 11rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .coming-soon-badge {
+    width: 14rem;
+  }
 }
 
