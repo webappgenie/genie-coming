@@ -164,7 +164,7 @@ canvas {
 }
 
 .coming-soon {
-  position: fixed;
+  position: absolute;
   top: 2rem;
   font-family: 'Poppins';
   font-weight: 500;
